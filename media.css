@@ -1,0 +1,22 @@
+@media screen and (max-width:1200px) {
+    .buyer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .collection{
+        display: none;
+    }
+}
+@media screen and (max-width:790px) {
+    .two_image,
+    .two_text{
+        width: 100%;
+    }
+    .desc{
+        width: 90%;
+    }
+}
+
